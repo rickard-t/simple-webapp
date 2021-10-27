@@ -9,11 +9,11 @@ This webapp was made as a
 
 ## Installation
 
-Install Python:
-`sudo apt install python3`
+This webapp has been tested on Linux Mint 20.2.
 
-Install Flask:
-`sudo apt install python3-flask`
+If not already installed, install Python 3 and pip.
+Then install the required packages:
+`pip3 install -r requirements.txt`
 
 ## Running the webapp
 
@@ -22,7 +22,7 @@ Go to the server folder:
 `cd simple-webapp/server`
 and start the server:
 `python3 main.py`
-or
+or:
 `flask run`
 
 Go to the URL of the started server:
