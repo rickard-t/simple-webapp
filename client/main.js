@@ -1,7 +1,7 @@
 var app = new Vue({
   el: '#quote',
   data: {
-    api_url: 'https://zenquotes.io/api/random',
+    api_url: '/quote',
     response: '---',
     error: false,
     loading: false
