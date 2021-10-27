@@ -18,10 +18,15 @@
           Loading...
         </div>
         <div v-else-if="error">
-          Error loading quote. {{ response }}
+          Error loading quote. {{ error_msg }}
         </div>
         <div v-else>
-          {{ response }}
+          <blockquote>
+            &ldquo;{{ quote }}&rdquo;
+          </blockquote>
+          <figcaption>
+            —{{ author }}
+          </figcaption>
         </div>
       </p>
 
